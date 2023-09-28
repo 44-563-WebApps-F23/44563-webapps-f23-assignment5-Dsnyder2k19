@@ -152,6 +152,23 @@
       <a class="dropdown-item" href="advanced.html">Advanced.html</a>
     </div>
   </div>
+  <form>
+    <div class="form-group">
+      <label for="inputEmail">Email address</label>
+      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="Enter your city">
+    </div>
+    <div class="form-check">
+      <label class="form-check label">
+        <input type="checkbox" class="form-check-input"> Sign up for newletter?
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
   <p>
     When you reduce the size of the browser, the row with the names of the cities will break first.
     I tested if the word length has an effect on which columns will break first, and it does. So the length
